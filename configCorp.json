@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "corp.json",
+  "logo": {
+    "text": "Mitch Daniels",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Card Co-occurrence in NetrunnerDB Decks",
+    "more": "Nodes represent individual cards, and connections between cards indicate co-occurrence of cards in at least one deck. The distance between nodes indicates the frequency of co-occurrence across all decks, so commonly used cards are central to the graph, while rarely used cards (*cough Exploratory Romp cough*) appear on the outskirts. Mouse over nodes to see card names, and click nodes to view card images alongside the subset of cards also used with that card.",
+    "intro": "Generated based on public NetrunnerDB decks published from 1/1/2013 - 6/28/2015. Includes card through Chrome City."
+  },
+  "legend": {
+    "edgeLabel": false,
+    "colorLabel": false,
+    "nodeLabel": false
+  },
+  "features": {
+    "search": false,
+    "groupSelectorAttribute": "faction",
+    "hoverBehavior": false
+  },
+  "informationPanel": {
+    "imageAttribute": "imagesrc",
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 3,
+      "maxEdgeSize": 0.2,
+      "minNodeSize": 3
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
